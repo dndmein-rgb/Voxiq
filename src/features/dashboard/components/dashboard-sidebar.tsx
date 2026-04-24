@@ -90,8 +90,7 @@ function NavSection({label,items,pathname}:NavSectionProps){
     )
 }
 
-export function DashboradSidebar(){
-    const pathname=usePathname();
+export function DashboardSidebar(){    const pathname=usePathname();
     const clerk=useClerk();
 
     const mainMenuItems:MenuItem[]=[

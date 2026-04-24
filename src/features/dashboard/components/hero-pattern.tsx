@@ -14,7 +14,7 @@ export function HeroPattern() {
         containerClassName="h-full"
         className="hidden"
       />
-      hello
-    </div>
+       
+     </div> 
   );
 }
