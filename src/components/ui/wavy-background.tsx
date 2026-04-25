@@ -1,5 +1,7 @@
 /* eslint-disable no-var */
 /* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable react-hooks/exhaustive-deps */  
+/* eslint-disable react-hooks/set-state-in-effect */
 "use client";
 import { cn } from "@/lib/utils";
 import React, { useEffect, useRef, useState } from "react";
@@ -105,7 +107,6 @@ export const WavyBackground = ({
 
   const [isSafari, setIsSafari] = useState(false);
   useEffect(() => {
-    // I'm sorry but i have got to support it on safari.
     setIsSafari(
       typeof window !== "undefined" &&
         navigator.userAgent.includes("Safari") &&
